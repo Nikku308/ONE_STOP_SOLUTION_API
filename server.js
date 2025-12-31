@@ -1,2 +1,4 @@
 // server.js (Vercel entry)
-module.exports = require('./src/app');
+
+const app = require('./src/app');
+module.exports = app;
